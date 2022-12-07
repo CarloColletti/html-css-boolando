@@ -1,0 +1,63 @@
+body{
+	height: 4000px;
+}
+
+
+/* header  */
+.header-main {
+	color: white;
+	position: fixed;
+	width: 100%;
+	background-color: #ff6900;
+}
+
+
+.header-nav {
+	display: flex;
+	flex-grow: 1;
+	line-height: 30px;
+}
+
+.header-nav>* {
+	flex-basis: 20%;
+	padding: 5px 10px;
+	padding: 1rem;
+	
+}
+
+.logo{
+	max-height: 2rem;
+}
+
+.header-logo {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.header-links ul li {
+	list-style: none;
+	display: inline;
+}
+
+
+.header-links ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.header-symbol {
+	text-align: right;
+
+}
+
+
+
+
+
+
+/* main  */
+
+
+
+
+/* footer  */
