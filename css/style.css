@@ -6,11 +6,11 @@ body{
 /* header  */
 .header-main {
 	color: white;
+	background-color: #ff6900;
+	z-index: 1;
 	position: fixed;
 	width: 100%;
-	background-color: #ff6900;
 }
-
 
 .header-nav {
 	display: flex;
@@ -56,6 +56,70 @@ body{
 
 
 /* main  */
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 30px;
+
+}
+
+.col{
+	width: 30%;
+	position: relative;
+}
+
+
+main .container{
+	padding-top: 120px;
+}
+
+/* badge */
+.block-badge{
+	position: absolute;
+	left: 0;
+	bottom: 3rem;
+	
+}
+.discount-badge{
+	background-color: #ff0000;
+}
+
+.block-badge>*{
+	padding: 0.4rem 0.6rem;
+	border-radius: 1rem;
+}
+
+.eco-badge{
+	background-color: #008000;
+}
+
+.hearts{
+	position: absolute;
+	right: 0;
+	top: 1rem;
+	background-color: white;
+	font-size: 3rem;
+	padding: 0.4rem 1rem;
+	display: block;
+}
+
+.hearts:hover{
+	color: #ff0000;
+}
+
+.other-image{
+	position: absolute;
+	display: none;
+	left: 0;
+	top:0
+}
+.other-image:hover{
+
+}
+	
+
 
 
 
