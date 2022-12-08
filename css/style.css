@@ -135,10 +135,19 @@ main .container{
 
 
 /* prezzi */
+.etichetta h4{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
 
+.col-prezzo .prezzo-scontato{
+	color: #ff0000;
+	font-weight: bold;
+}
 
-
-
+.col-prezzo .prezzo-normale{
+	text-decoration: line-through;
+}
 
 
 
